@@ -1,0 +1,99 @@
+@media (max-width: 1440px) {
+	.banner {
+		padding-top: 140px;
+	}
+	.container {
+		max-width: 1290px;
+	}
+	.banner__title {
+		margin-bottom: 20px;
+		max-width: 700px;
+	}
+	.title {
+		font-size: 48px;
+		line-height: 1.1;
+	}
+	.banner__text {
+		margin-bottom: 60px;
+	}
+	.text {
+		font-size: 28px;
+		line-height: 1.1;
+	}
+	.banner__btns {
+		margin-bottom: 80px;
+		max-width: 500px;
+		gap: 15px;
+	}
+	.btn {
+		padding: 15px 5px;
+		max-width: 220px;
+		font-size: 20px;
+	}
+	.banner__social {
+	}
+	.link {
+		gap: 15px;
+		color: #fff;
+		padding: 15px 15px 12px 15px;
+		border-radius: 2px;
+	}
+	.link-span {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 767px;
+	}
+	.banner__title {
+		margin-bottom: 30px;
+		max-width: 322px;
+	}
+	.title {
+		font-size: 28px;
+	}
+	.banner__text {
+		margin-bottom: 140px;
+	}
+	.text {
+		font-size: 18px;
+	}
+	.banner__btns {
+    flex-direction: column;
+		max-width: 300px;
+		gap: 10px;
+	}
+	.btn {
+		padding: 28px 5px;
+		max-width: 300px;
+		font-size: 24px;
+	}
+	.link {
+		gap: 15px;
+		padding: 15px 15px 12px 15px;
+	}
+  	.link > svg {
+      width: 23px;
+      height: 20px;
+    }
+	.link-span {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding-top: 127px;
+    background-position: bottom;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner {
+    background-image: url(./img/mobile-bg.png);
+    background-position: center;
+  }
+}
+
